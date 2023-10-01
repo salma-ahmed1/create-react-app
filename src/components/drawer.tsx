@@ -15,41 +15,41 @@ export default function Drawer()
         <div className="drawer" >
                 {/* profile photo */}
             <svg style={{ height: '7%' }}>
-                <circle cx="23" cy="23" r="15"  fill="grey" />
+                <circle cx="23" cy="23" r="15"  fill="#d9d9d9" />
             </svg>
                 {/* home */}
             <a href=''>
-                <img src= {home}  style={{ width: '50%', margin: '20%', padding: '10%'}}/>
+                <img src= {home} />
             </a>
 
                 {/* people */}
             <a href=' '>
-                <img src={people}  style={{ width: '50%', margin: '20%', padding: '10%' }}/>
+                <img src={people} />
             </a>
 
                 {/* todo */}
             <a href=' '>
-                <img src={todo} style={{ width: '50%', margin: '20%', padding: '10%' }}/>
+                <img src={todo}/>
             </a>
 
                 {/* share */}
             <a href=' '>
-                <img src={share} style={{ width: '50%', margin: '20%', padding: '10%' }}/>
+                <img src={share}/>
             </a>
 
                 {/* paper */}
             <a href=' '>
-             <img src={paper} style={{ width: '50%', margin: '20%', padding: '10%' }}/>
+             <img src={paper}/>
             </a>
 
                 {/* book */}
             <a href=' '>
-             <img src={book} style={{ width: '50%', margin: '20%', padding: '10%' }}/>
+             <img src={book}/>
             </a>
 
                 {/* favourite */}
             <a href=' '>
-             <img src={favourite} style={{ width: '50%', margin: '20%', padding: '10%' }}/>
+             <img src={favourite}/>
             </a>
 
                 {/* back */}
@@ -59,13 +59,13 @@ export default function Drawer()
 
                 {/* settings */}
             <a href=' '>
-             <img src={settings}  style={{ width: '50%', margin: '20%', paddingTop: '250%' }}/>
+             <img src={settings}  style={{ paddingTop: '250%' }}/>
             </a>
 
                 {/* profile */}
             <svg className="pro_pic"  style={{ position: 'absolute', bottom: '0', height: '7%' }}>
-                <circle cx="23" cy="23" r="15"  fill="blue" />
-                <text x="14" y="27" fill="lightblue">AS</text>
+                <circle cx="23" cy="23" r="15"  fill="#d7f5ed" />
+                <text x="14" y="27" fill="#b1cdfd">AS</text>
             </svg>
         </div>
     )

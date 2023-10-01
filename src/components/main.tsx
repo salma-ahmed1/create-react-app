@@ -1,18 +1,12 @@
+import Navbar from './navbar'
+import Filterdiv from './filterdiv'
+
 export default function Maindiv()
 {
     return(
         <div className="maindiv">
             <Navbar></Navbar>
             <Innerdiv></Innerdiv>
-        </div>
-    )
-}
-
-function Navbar()
-{
-    return(
-        <div className="navbar">
-            <p>here is navbar</p>
         </div>
     )
 }
@@ -27,14 +21,6 @@ function Innerdiv()
     )
 }
 
-function Filterdiv()
-{
-    return(
-        <div className="filterdiv">
-            <p> I am filter div</p>
-        </div>
-    )
-}
 
 function Candidatediv()
 {
