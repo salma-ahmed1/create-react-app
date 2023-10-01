@@ -1,5 +1,6 @@
 import Navbar from './navbar'
 import Filterdiv from './filterdiv'
+import Candidatediv from './candidatediv'
 
 export default function Maindiv()
 {
@@ -17,16 +18,6 @@ function Innerdiv()
         <div className="innerdiv">
             <Filterdiv></Filterdiv>
             <Candidatediv></Candidatediv>
-        </div>
-    )
-}
-
-
-function Candidatediv()
-{
-    return(
-        <div className="candidatediv">
-            <p>I am candidate div</p>
         </div>
     )
 }

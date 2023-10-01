@@ -19,47 +19,47 @@ export default function Drawer()
             </svg>
                 {/* home */}
             <a href=''>
-                <img src= {home} />
+                <img src= {home} alt=' ' />
             </a>
 
                 {/* people */}
             <a href=' '>
-                <img src={people} />
+                <img src={people} alt=' '/>
             </a>
 
                 {/* todo */}
             <a href=' '>
-                <img src={todo}/>
+                <img src={todo} alt=' '/>
             </a>
 
                 {/* share */}
             <a href=' '>
-                <img src={share}/>
+                <img src={share} alt=' '/>
             </a>
 
                 {/* paper */}
             <a href=' '>
-             <img src={paper}/>
+             <img src={paper} alt=' '/>
             </a>
 
                 {/* book */}
             <a href=' '>
-             <img src={book}/>
+             <img src={book} alt=' '/>
             </a>
 
                 {/* favourite */}
             <a href=' '>
-             <img src={favourite}/>
+             <img src={favourite} alt=' '/>
             </a>
 
                 {/* back */}
             <a href=' '>
-             <img src={back} style={{ width: '40%', margin: '25%', padding: '10%' }}/>
+             <img src={back} alt=' ' style={{ width: '40%', margin: '25%', padding: '10%' }}/>
             </a>
 
                 {/* settings */}
             <a href=' '>
-             <img src={settings}  style={{ paddingTop: '250%' }}/>
+             <img src={settings} alt=' ' style={{ paddingTop: '250%' }}/>
             </a>
 
                 {/* profile */}

@@ -38,7 +38,6 @@ img
 
 .filterdiv
 {
-  /* background-color: red; */
   margin: 5%;
 }
 
@@ -64,10 +63,32 @@ summary div.row img
   margin-top: 3px;
 }
 
+.candidate
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.details
+{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.detailchild
+{
+  margin: 2%;
+}
+
 .candidatediv
 {
-  /* background-color: chocolate; */
-  /* margin: 5%; */
+  background-color: white;
+  border-radius: 20px;
+  margin-right: 5%;
+  /* overflow-y: auto; */
+  /* height: 90%; */
 }
 
 input

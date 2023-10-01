@@ -1,5 +1,5 @@
 import paper from './svg4.svg'
-import up from './uparraow.svg'
+// import up from './uparraow.svg'
 import down from './downarrow.svg'
 var count = 0;
 
@@ -16,30 +16,30 @@ export default function Filterdiv()
             <details >
                 <summary className='filter'>
                     <div className='row'>
-                        <img src={paper}/>
+                        <img src={paper} alt=' '/>
                         <p>Personal Information</p>
                     </div>
-                    <img src={down} style={{width: '8%', margin: '5px 9px 0px 0px', padding: '0'}}/>
+                    <img src={down} alt=' ' style={{width: '8%', margin: '5px 9px 0px 0px', padding: '0'}}/>
                 </summary>
             </details>
 
             <details >
                 <summary className='filter'>
                     <div className='row'>
-                        <img src={paper} />
+                        <img src={paper} alt=' '/>
                         <p>Education</p>
                     </div>
-                    <img src={down} style={{width: '8%', margin: '5px 9px 0px 0px', padding: '0'}}/>
+                    <img src={down} alt=' ' style={{width: '8%', margin: '5px 9px 0px 0px', padding: '0'}}/>
                 </summary>
             </details>
 
             <details>
                 <summary className='filter'>
                     <div className='row'>
-                        <img src={paper}/>
+                        <img src={paper} alt=' '/>
                         <p>Work Experience</p>
                     </div>
-                    <img src={down} style={{width: '8%', margin: '5px 9px 0px 0px', padding: '0'}}/>
+                    <img src={down} alt=' ' style={{width: '8%', margin: '5px 9px 0px 0px', padding: '0'}}/>
                 </summary>
             </details>
 
@@ -47,17 +47,17 @@ export default function Filterdiv()
             <details>
                 <summary className='filter'>
                     <div className='row'>
-                        <img src={paper}/>
+                        <img src={paper} alt=' '/>
                         <p>Activity Filter</p>
                     </div>
-                    <img src={down} style={{width: '8%', margin: '5px 9px 0px 0px', padding: '0'}}/>
+                    <img src={down} alt=' ' style={{width: '8%', margin: '5px 9px 0px 0px', padding: '0'}}/>
                 </summary>
             </details>
 
 
             <details>
                 <summary style={{borderBottomLeftRadius: '5px', borderBottomRightRadius: '5px', display: 'flex', justifyContent: 'flex-start', backgroundColor: 'white', width: '87%', marginTop: '3px'}}>
-                    <img src={paper} style={{width: '10%', height: '38%', margin: '17px 5px 5px 5px', padding: '0px'}}/>
+                    <img src={paper} alt=' ' style={{width: '10%', height: '38%', margin: '17px 5px 5px 5px', padding: '0px'}}/>
                     <p>Advanced Filter</p>
                 </summary>
             </details>
