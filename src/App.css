@@ -21,6 +21,7 @@ img
 {
   display: flex;
   flex-direction: column;
+  /* position: sticky; */
 }
 
 .navbar
@@ -28,6 +29,16 @@ img
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.navbarimg
+{
+  margin: 20px 10px 0px 0px;
+  padding: 2px;
+  width: 5%;
+  height: 30%;
+  border-radius: 5px;
+  background-color: white;
 }
 
 .innerdiv

@@ -1,7 +1,40 @@
+var select = 247;
+
 export default function Candidatediv()
 {
     return(
         <div className="candidatediv">
+
+            <div className="candidate" style={{marginTop: '2%'}}>
+                <input type="checkbox" style={{width: '5%', height: '30%'}}/>
+                <span style={{fontWeight: 'bold', color: '#1c4ed8'}}>{select} Candidates</span>
+
+                {/* <div style={{display: 'flex', flexDirection: 'row'}}>
+                    <span style={{color: '#1c4ed8'}}>Qualified</span>
+                    <span style={{color: '#1c4ed8'}}>Task</span>
+                </div> */}
+                <table style={{position: 'absolute', right: '7%'}}>
+                    <tr>
+                        <td style={{color: '#1c4ed8'}}>Qualified</td>
+                        <td style={{width: '5%', borderRight: '2px solid #f3f3f4'}}></td>
+
+                        <td style={{marginRight:'3%'}}>Task</td>
+                        <td>
+                            <span style={{margin: '3%',borderRadius: '30%', backgroundColor: '#f6f8fd', color: '#22215b'}}>25</span>
+                        </td>
+                        <td style={{width: '5%', borderRight: '2px solid #f3f3f4'}}></td>
+
+                        <td style={{margin:'3%'}}>Disqualified</td>
+                        <td>
+                            <span style={{margin: '3%',borderRadius: '30%', backgroundColor: '#f6f8fd', color: '#22215b'}}>78</span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <hr style={{width:'90%', color: '#eeeeee'}}/>
+
+
+
             <div className="candidate">
                 <input type="checkbox" style={{width: '5%', height: '30%'}}/>
                 <svg style={{width: '13%'}}>
@@ -69,7 +102,7 @@ export default function Candidatediv()
                     </div>
                 </div>
             </div>
-            <hr style={{width:'90%', color: '#eeeeee'}}/>
+            {/* <hr style={{width:'90%', color: '#eeeeee'}}/>
 
             <div className="candidate">
                 <input type="checkbox" style={{width: '5%', height: '30%'}}/>
@@ -115,7 +148,7 @@ export default function Candidatediv()
                     </div>
                 </div>
             </div>
-            <hr style={{width:'90%', color: '#eeeeee'}}/>
+            <hr style={{width:'90%', color: '#eeeeee'}}/> */}
         </div>
     )
 }
